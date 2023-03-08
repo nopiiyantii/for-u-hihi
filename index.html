@@ -1,0 +1,21 @@
+<html>
+  <a href="www.for u.com">for u</a>
+  <body>
+    <h1>hai  jelek!</h1>
+    <img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif" />
+    <h1>semangat ya kuliahnyaaa!!</h1>
+    <button id="btn_pencet" onclick="alert('VIRTUAL HUG FOR U hihi')">pencet</button>&nbsp;
+    <button id="btn_gamau" onclick="janganpencet(this)" style="position: absolute">
+      janganpencet
+    </button>
+  </body>
+  <script>
+    function janganpencet(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
+</html>
